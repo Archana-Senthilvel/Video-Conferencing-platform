@@ -1,49 +1,39 @@
 # Video Conferencing Platform
 
-# Overview
+## Overview
 
 The Video Conferencing Platform is a lightweight application that enables video conferencing and supports uploading and managing resumes. It is designed for scenarios like interviews where resume sharing is required.
 
-# How It Works
 
-1.Home Page:
+## Installation and Setup
 
-Access the main interface by navigating to the home page (/).
+## Prerequisites
 
-2.Resume Upload:
+- Python 3.8 or higher
 
-Upload resumes in supported formats (PDF, DOC, DOCX).
+- pip (Python package manager)
 
-Files are stored securely after validation.
-
-# Installation and Setup
-
-# Prerequisites
-
-Python 3.8 or higher
-
-pip (Python package manager)
-
-# Steps
+## Steps
 
 1.Clone the Repository:
 
-git clone <repository-url>
-cd video-conferencing-platform
+    git clone <repository-url>
+    cd video-conferencing-platform
 
 2.Install Dependencies:
 
-pip install flask
+    pip install flask
 
 3.Run the Application:
 
-python app.py
+    python app.py
 
 4.Access the Application:
+
 Open your web browser and navigate to http://127.0.0.1:5000.
 
-# Supported File Types for Resume Upload
+## Supported File Types for Resume Upload
 
-PDF (.pdf)
+- PDF (.pdf)
 
-Microsoft Word (.doc, .docx)
+- Microsoft Word (.doc, .docx)
